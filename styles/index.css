@@ -1,0 +1,47 @@
+
+body {
+    background-color: lightgray;
+}
+
+
+nav ul	{
+	background-color: grey;
+	border: 1px solid black;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	
+
+}
+
+li	{
+	float: left;
+	border-right: 1px solid darkgrey;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+
+li a	{
+	display: block;
+	color: white;
+	padding: 10px 30px;
+	background-color: green;
+	text-decoration: none;
+}
+
+li a:hover:not(.active)	{
+	background-color: black;
+}
+
+
+.active	{
+	background-color: blue;
+}
+
+.floatRight	{
+	float: right;
+}
