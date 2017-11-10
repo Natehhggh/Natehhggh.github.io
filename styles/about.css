@@ -1,6 +1,11 @@
 
 body {
     background-color: lightgray;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -37,11 +42,32 @@ li a:hover:not(.active)	{
 	background-color: black;
 }
 
+section {
+	text-align: center;
+	display: block;
+	height: 400px;
+	background-color: blue;
+	width: 1200px;
+	margin: auto;
+}
+
+
+div{
+	width: 500px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding: 10px 30px;
+}
+
+img	{
+	width: 350px;
+	height:250px;	
+}
+
+
 
 .active	{
 	background-color: blue;
 }
 
-.floatRight	{
-	float: right;
-}
