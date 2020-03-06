@@ -3,7 +3,7 @@ section {
 	text-align: center;
 	display: block;
 	height: 400px;
-	background-color: blue;
+	background-color: #557A95;
 	width: 1200px;
 	margin: auto;
 }
@@ -22,9 +22,4 @@ img	{
 	height:250px;	
 }
 
-
-
-.active	{
-	background-color: blue;
-}
 
