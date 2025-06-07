@@ -6,40 +6,66 @@
     <title>Page Title</title>
     <link rel="stylesheet" href="styles/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 
 <body>
-
     <div class="header">
-        <h1>Index</h1>
+
+        <div class="headerLeft">
+        </div>
+
+        <div class="headerCenter">
+        </div>
+
+        <div class="headerRight">
+            <label for="themes">Theme:</label>
+            <select name="themes" id="theme_id" onchange="UpdateTheme()">
+                <option value=0>Light </option>
+                <option value=1>Dark</option>
+            </select>
+            <script src="ThemePicker.js"></script>
+        </div>
     </div>
 
     <div class ="body">
         <div class ="about">
             <div class = "blurb"
-                <h1>Nathan Blau</h1>
+                <h1>About Me</h1>
                 <p>
-                    Software Engineer with 3 years experience writing backend C# and Python. As well as 
+                    Software Engineer with 3 years experience 
                 </p>
             </div>
+            
+            <div class="skills">
+                <div class ="languages">
+                    <h3>Languages</h3>
+                    <ui>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>C#</li>
+                        <li>Python</li>
+                        <li>GoLang</li>
+                    </ui>
+                </div>
 
-            <div class ="languages">
-                <h3>languages</h3>
-
-                <ui>
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>C#</li>
-                    <li>Python</li>
-                    <li>T-SQL</li>
-                </ui>
+                <div class ="technologies">
+                    <h3>Technologies</h3>
+                    <ui>
+                        <li>SQL</li>
+                        <li>Microsoft Azure</li>
+                        <li>Databricks</li>
+                        <li>Git</li>
+                        <li>Pyspark</li>
+                        <li>OpenGL</li>
+                        <li>Unity</li>
+                    </ui>
+                </div>
             </div>
+
         </div>
 
 
         <div class ="projects">
-
             <div class = "project">
                 <h1>Project Name</h1>
                 <p>
@@ -63,6 +89,18 @@
 
         </div>
 
+    </div>
+
+    <div class="footer">
+        <div class="footerLeft">
+        </div>
+
+        <div class="footerCenter">
+            Nathan Blau @2025
+        </div>
+
+        <div class="footerRight">
+        </div>
     </div>
 
 </body>

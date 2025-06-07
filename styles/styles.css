@@ -6,21 +6,44 @@ html {
 
 
 body{
-    background: #6a6a6a;
     display: flex;
     flex-direction: column;
 }
 
 
 .header{
-
-
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.headerLeft, .headerCenter, .headerRight{
+    display:flex;
+    gap: 1.5rem;
+    justify-content:center;
+    align-items:center;
+}
+
+.footerLeft, .footerCenter, .footerRight{
+    display:flex;
+    gap: 1.5rem;
+    justify-content:center;
+    align-items:center;
+}
+
+
 .body{
-    background: red;
     display: flex;
     flex-direction: column;
+    justify-content:center;
+    align-items:center;
 }
 
 .body div{
@@ -28,26 +51,33 @@ body{
     display:flex;
 }
 
+.skills{
+    margin: .5rem;
+    display:flex;
+    flex-direction: column;
+}
+
 
 .about{
-    background:blue;
 
 }
 
 .languages{
-    background:red;
+    display: flex;
+    flex-direction: column;
+}
+
+.technologies{
     display: flex;
     flex-direction: column;
 }
 
 .projects{
-    background:blue;
     display: flex;
     flex-direction: column;
 }
 
 .project{
-    background:red;
     margin:.5rem;
     display: flex;
     flex-direction: column;
@@ -55,7 +85,6 @@ body{
 }
 
 .blurb{
-    background:red;
     display: flex;
     flex-direction: column;
 }
